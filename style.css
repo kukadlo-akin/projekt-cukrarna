@@ -2,6 +2,192 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
+body {
+	font-family: "Lora", serif;
+	font-weight: 400;
+	margin: 0;
+	color: #242424;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Playfair Display", serif;
+	color: #3e606b
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+img {
+	display: flex;
+	width: 100%;
+	border-radius: 5px;
+}
+
+section {
+	padding: 80px 0;
+}
+
+.celek {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/* MENU CAST */
+
+.hlavicka {
+	width: 1100px;
+	display: flex;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 170px;
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+
+.menu a{
+	color: #242424;
+	text-decoration: none;
+	font-family: "Lora", serif;
+	list-style: none;
+	padding: 10px 15px;
+}
+
+li {
+	list-style: none;
+}
+	
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #f195b2;
+	border-radius: 20px;
+	color: white;
+}
+
+ul {
+	display: flex;
+ }
+
+
+/* HEADER CAST */
+
+.fotopozadi {
+	background-image: url(images/cupcake.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.prva {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding-right: 40%;
+}
+
+h1 {
+	font-size: 52px;
+	color: white;
+}
+
+.uvod {
+	font-style: italic;
+	font-size: 24px;
+	color: white;
+}
+
+/* DRUHA A CTVRTA CAST */
+
+.obsah-sekce {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.dva-stloupce {
+	display: flex;
+	gap: 30px
+} 
+
+.stloupec {
+	flex: 1 1 50% 
+}
+
+.nase {
+	margin-top: 50px;
+}
+
+.nase a {
+	color: white;
+	background-color: #f195b2;
+	border-radius: 30px;
+	text-decoration: none;
+	font-family: "Lora", serif;
+	list-style: none;
+	padding: 15px 40px;
+}
+
+.nase a:hover,
+.nase a:focus,
+.nase a:active {
+    background-color: #d2567d;
+}
+
+/* TRETI CAST */
+
+.kus {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.contajner {
+	background-color: #f0f0f0;
+}
+
+.nabidka {
+	display: flex;
+	gap: 20px;
+}
+
+.produkt {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px -10px rgba(0,0,0,0.68);
+}
+
+.produkt img{
+	border-radius: 5px 5px 0 0 ;
+}
+
+.text {
+	text-align: center;
+	margin: 20px;
+}
+
+/* TRETI KONEC */
+
+.paticka {
+	background-color: #303339;
+	color: white;
+	padding: 30px;
+	text-align: center;
+}
+
 
 /*
 	Poznámky:
@@ -28,8 +214,4 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
-
-body {
-	margin: 0;
-}
 
